@@ -38,7 +38,7 @@ test('test comprobar navegación', async({page})=>{
   await page.locator('h1:has-text("Libros, Revistas y Comics")').click();
 });
 
-test('test modificar ubicación',async({page}) =>{
+test('test consulta PQR',async({page}) =>{
     // Go to https://www.mercadolibre.com.co/
     await page.goto('https://www.mercadolibre.com.co/');
     // Click text=Ayuda / PQR >> nth=1
