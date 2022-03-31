@@ -57,5 +57,5 @@ test('test consulta PQR',async({page}) =>{
     // Click [data-testid="yes-btn"]
     await page.locator('[data-testid="yes-btn"]').click();
     // Click text=¡Muchas gracias! Tu opinión ayuda a mejorar esta información para todas las pers
-    await page.locator('text=¡Muchas gracias! Tu opinión ayuda a mejorar esta información para todas las pers').click();  
+    await page.locator('text=¡Muchas gracias! Tu opinión ayuda a mejorar esta información para todas las personas.').click();  
 });
