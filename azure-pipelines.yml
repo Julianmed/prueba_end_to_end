@@ -21,6 +21,10 @@ steps:
     npm install
   displayName: 'npm install'
 
+- script: |
+    Install Playwright
+  displayName: 'npx playwright install --with-deps'
+
 - task: Npm@1
   inputs:
     command: 'custom'
