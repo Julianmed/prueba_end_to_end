@@ -1,8 +1,8 @@
 # Pruebas End To End
 
-##PLAN DE PRUEBAS
+## PLAN DE PRUEBAS
 
-  #PRUEBA 1
+  ### PRUEBA 1
 ....ALCANCE
 Comprobar que por medio de la barra de busqueda encuentre un producto y lo puedas comprar.
 ....ESTRATEGIA
