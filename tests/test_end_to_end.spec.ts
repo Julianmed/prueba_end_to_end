@@ -29,7 +29,7 @@ test('test comprobar navegación', async({page})=>{
   await page.locator('a:has-text("Ofertas")').nth(1).click();
   await expect(page).toHaveURL('https://www.mercadolibre.com.co/ofertas#nav-header');
   // Click text=Menos de $40.000
-  await page.locator('text=Menos de $50.000').click();
+  await page.locator('text=Menos de $40.000').click();
   await expect(page).toHaveURL('https://www.mercadolibre.com.co/ofertas?price=0.0-40000.0&container_id=MCO779366-1#origin=scut&filter_applied=price&filter_position=6&is_recommended_domain=false');
   // Click text=Libros, Revistas y Comics (13)
   await page.locator('text=Libros, Revistas y Comics').click();
